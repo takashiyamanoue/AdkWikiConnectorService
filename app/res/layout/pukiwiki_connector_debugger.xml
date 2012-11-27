@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:orientation="vertical" android:weightSum="2">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/wiki_debug_save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wiki_save" />
+
+        <Button
+            android:id="@+id/wiki_debug_read_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wiki_read" />
+
+        <Button
+            android:id="@+id/wiki_debug_edit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wiki_edit" />
+
+        <Button
+            android:id="@+id/wiki_debug_update_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wiki_update" />
+
+        <Button
+            android:id="@+id/wiki_debug_params_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wiki_params" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/wiki_debug_clear_message_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wiki_clear_message" />
+
+        <CheckBox
+            android:id="@+id/wiki_debug_show_message_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wiki_show_message" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/wiki_debug_url_text_field"
+            android:layout_width="265dip"
+            android:layout_height="wrap_content"
+            android:inputType="text|textUri"
+            android:scrollbars="vertical" />
+
+        <Button
+            android:id="@+id/wiki_debug_connect_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wiki_con" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/wiki_debug_input_text_field"
+            android:layout_width="265dip"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:scrollbars="vertical" />
+
+        <Button
+            android:id="@+id/wiki_debug_send_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wiki_send" />
+    </LinearLayout>
+
+	<EditText
+	    android:id="@+id/wiki_debug_message_text_area"
+	    android:layout_width="match_parent"
+	    android:layout_height="0dip"
+	    android:layout_weight="1.36"
+	    android:inputType="textMultiLine"
+	    android:scrollbars="vertical"
+	    android:textSize="12sp" >
+
+	    <requestFocus />
+	</EditText>
+
+</LinearLayout>

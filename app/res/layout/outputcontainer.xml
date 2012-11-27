@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="wrap_content"
+	android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/pin8setting"
+        android:layout_width="match_parent"
+        android:layout_height="65dp" >
+
+        <TextView
+            android:id="@+id/pin8label"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:text="@string/o8"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/rgpin8"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <RadioButton
+                android:id="@+id/radio80"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:checked="true"
+                android:text="@string/d" />
+
+            <RadioButton
+                android:id="@+id/radio81"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="@string/a" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:id="@+id/p8ll1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/p8ll2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" >
+
+                <Button
+                    android:id="@+id/pin8dv_on"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/on"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/pin8dv_off"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/off" 
+                    android:textSize="10dp" />
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/p8ll3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <SeekBar
+                    android:id="@+id/pin8bar"
+                    android:layout_width="160dp"
+                    android:layout_height="25dp" />
+
+                <TextView
+                    android:id="@+id/pin8av"
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:text="@string/n0"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/space"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <LinearLayout
+        android:id="@+id/pin9setting"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp" >
+
+        <TextView
+            android:id="@+id/pin9label"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:text="@string/o9"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/rgpin9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/radio90"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:checked="true"
+                android:text="@string/d" />
+
+            <RadioButton
+                android:id="@+id/radio91"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="@string/a" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:id="@+id/p9ll1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/p9ll2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" >
+
+                <Button
+                    android:id="@+id/pin9dv_on"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/on"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/pin9dv_off"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/off" 
+                    android:textSize="10dp" />
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/p9ll3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <SeekBar
+                    android:id="@+id/pin9bar"
+                    android:layout_width="160dp"
+                    android:layout_height="25dp" />
+
+                <TextView
+                    android:id="@+id/pin9av"
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:text="@string/n0"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/space"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <LinearLayout
+        android:id="@+id/pin10setting"
+        android:layout_width="match_parent"
+        android:layout_height="65dp" >
+
+        <TextView
+            android:id="@+id/pin10label"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:text="@string/o10"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/rgpin10"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <RadioButton
+                android:id="@+id/radio100"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:checked="true"
+                android:text="@string/d" />
+
+            <RadioButton
+                android:id="@+id/radio101"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="@string/a" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:id="@+id/p10ll1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/p10ll2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" >
+
+                <Button
+                    android:id="@+id/pin10dv_on"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/on"
+                    android:textSize="10dp" />
+
+                <Button
+                    android:id="@+id/pin10dv_off"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/off" 
+                    android:textSize="10dp" />
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/p10ll3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <SeekBar
+                    android:id="@+id/pin10bar"
+                    android:layout_width="160dp"
+                    android:layout_height="25dp" />
+
+                <TextView
+                    android:id="@+id/pin10av"
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:text="@string/n0"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/space"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <LinearLayout
+        android:id="@+id/pin11setting"
+        android:layout_width="match_parent"
+        android:layout_height="65dp" >
+
+        <TextView
+            android:id="@+id/pin11label"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:text="@string/o11"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/rgpin11"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <RadioButton
+                android:id="@+id/radio110"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:checked="true"
+                android:text="@string/d" />
+
+            <RadioButton
+                android:id="@+id/radio111"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="@string/a" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:id="@+id/p11ll1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/p11ll2"
+                android:layout_width="match_parent"
+                android:layout_height="35dp" >
+
+                <Button
+                    android:id="@+id/pin11dv_on"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/on" />
+
+                <Button
+                    android:id="@+id/pin11dv_off"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/off" />
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/p11ll3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <SeekBar
+                    android:id="@+id/pin11bar"
+                    android:layout_width="160dp"
+                    android:layout_height="25dp" />
+
+                <TextView
+                    android:id="@+id/pin11av"
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:text="@string/n0"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/space"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <LinearLayout
+        android:id="@+id/pin12setting"
+        android:layout_width="match_parent"
+        android:layout_height="65dp" >
+
+        <TextView
+            android:id="@+id/pin12label"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:text="@string/o12"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/rgpin12"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <RadioButton
+                android:id="@+id/radio120"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:checked="true"
+                android:text="@string/d" />
+
+            <RadioButton
+                android:id="@+id/radio121"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="@string/a" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:id="@+id/p12ll1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/p12ll2"
+                android:layout_width="match_parent"
+                android:layout_height="35dp" >
+
+                <Button
+                    android:id="@+id/pin12dv_on"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/on" />
+
+                <Button
+                    android:id="@+id/pin12dv_off"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/off" />
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/p12ll3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <SeekBar
+                    android:id="@+id/pin12bar"
+                    android:layout_width="160dp"
+                    android:layout_height="25dp" />
+
+                <TextView
+                    android:id="@+id/pin12av"
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:text="@string/n0"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/space"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <LinearLayout
+        android:id="@+id/pin13setting"
+        android:layout_width="match_parent"
+        android:layout_height="65dp" >
+
+        <TextView
+            android:id="@+id/pin13label"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:text="@string/o13"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/rgpin13"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <RadioButton
+                android:id="@+id/radio130"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:checked="true"
+                android:text="@string/d" />
+
+            <RadioButton
+                android:id="@+id/radio131"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="@string/a" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:id="@+id/p13ll1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/p13ll2"
+                android:layout_width="match_parent"
+                android:layout_height="35dp" >
+
+                <Button
+                    android:id="@+id/pin13dv_on"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/on" />
+
+                <Button
+                    android:id="@+id/pin13dv_off"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/off" />
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/p13ll3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <SeekBar
+                    android:id="@+id/pin13bar"
+                    android:layout_width="160dp"
+                    android:layout_height="25dp" />
+
+                <TextView
+                    android:id="@+id/pin13av"
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:text="@string/n0"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    
+    
+ </LinearLayout>
+

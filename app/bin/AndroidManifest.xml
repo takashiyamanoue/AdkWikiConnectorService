@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="org.yamalab.android.AdkTwitter" android:versionCode="1"
+	android:versionName="1.0">
+
+	<uses-sdk android:minSdkVersion="10" android:targetSdkVersion="11" />
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.PERSISTENT_ACTIVITY"/>
+
+	<application android:icon="@drawable/ic_launcher_demokit"
+		android:label="@string/app_name" android:theme="@android:style/Theme.NoTitleBar">
+		<uses-library android:name="com.android.future.usb.accessory" />
+		<activity android:name=".AdkTwitterLaunch" android:label="@string/app_name"
+		    android:configChanges="orientation|keyboardHidden" >
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+            <intent-filter>
+            	<action android:name="android.intent.action.VIEW" />
+            	<category android:name="android.intent.category.DEFAULT" />
+            	<category android:name="android.intent.category.BROWSABLE" />
+            	<data android:scheme="myapp" android:host="oauth"/>
+        	</intent-filter>
+		</activity>
+		<activity android:name="org.yamalab.android.AdkTwitter.UsbAccessoryActivity" android:label="DemoKit"
+			android:taskAffinity="" android:launchMode="singleInstance">
+			<intent-filter>
+				<action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED" />
+			</intent-filter>
+			<meta-data android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
+				android:resource="@xml/accessory_filter" />
+		</activity>
+		<activity android:name=".AdkTwitterActivity" android:label="@string/app_name"
+			android:screenOrientation="portrait">
+		</activity>
+		<service android:name=".AdkService" />
+	</application>
+</manifest>

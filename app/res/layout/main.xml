@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:orientation="vertical" android:background="@drawable/background_holo_dark">
+	<LinearLayout android:id="@+id/InOutTabContainer"
+		android:layout_width="fill_parent" android:orientation="horizontal"
+		android:layout_height="48dip">
+
+		<TextView
+		    android:id="@+id/main_input_label"
+		    style="@style/DemoKitTextBase"
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"
+		    android:layout_gravity="center"
+		    android:layout_weight="1"
+		    android:background="@drawable/tab_focused_holo_dark"
+		    android:clickable="true"
+		    android:gravity="center"
+		    android:text="@string/input"
+		    android:textSize="32dp" >
+
+        </TextView>
+
+		<TextView
+		    android:id="@+id/main_output_label"
+		    style="@style/DemoKitTextBase"
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"
+		    android:layout_gravity="center"
+		    android:layout_weight="1"
+		    android:clickable="true"
+		    android:gravity="center"
+		    android:text="@string/output" >
+        </TextView>
+
+		<TextView
+		    android:id="@+id/main_stop_label"
+		    style="@style/DemoKitTextBase"
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"
+		    android:layout_gravity="center"
+		    android:layout_weight="1"
+		    android:clickable="true"
+		    android:gravity="center"
+		    android:text="@string/main_stop"
+		    android:textSize="18dp" >
+
+        </TextView>
+		
+		<TextView
+		    android:id="@+id/main_twitter_label"
+		    style="@style/DemoKitTextBase"
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"
+		    android:layout_gravity="center"
+		    android:layout_weight="1"
+		    android:clickable="true"
+		    android:gravity="center"
+		    android:text="@string/main_twitter_label"
+		    android:textSize="18dp" />
+
+		<TextView
+		    android:id="@+id/main_tweet_label"
+		    style="@style/DemoKitTextBase"
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"
+		    android:layout_gravity="center"
+		    android:layout_weight="1"
+		    android:clickable="true"
+		    android:gravity="center"
+		    android:text="@string/main_tweet_label"
+		    android:textSize="18dp" />
+		
+		<TextView
+		    android:id="@+id/main_login_label"
+		    style="@style/DemoKitTextBase"
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"
+		    android:layout_gravity="center"
+		    android:layout_weight="1"
+		    android:gravity="center"
+		    android:text="@string/main_login_label"
+		    android:textAppearance="?android:attr/textAppearanceLarge"
+		    android:textSize="24dp" />
+
+	</LinearLayout>
+	<FrameLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:orientation="vertical"
+		android:paddingLeft="10dip" android:paddingRight="10dip">
+		<include layout="@layout/inputcontainer" android:id="@+id/inputContainer"
+			android:layout_width="match_parent" android:layout_height="wrap_content" />
+		<include layout="@layout/outputcontainer" android:id="@+id/outputContainer"
+			android:layout_width="match_parent" android:layout_height="wrap_content" />
+		<include layout="@layout/twitter_main" android:id="@+id/twitter_main"
+			android:layout_width="match_parent" android:layout_height="wrap_content" />
+		<include layout="@layout/tweet" android:id="@+id/tweet"
+			android:layout_width="match_parent" android:layout_height="wrap_content" />
+		<include layout="@layout/tweetlogin" android:id="@+id/tweetlogin"
+			android:layout_width="match_parent" android:layout_height="wrap_content" />
+			</FrameLayout>
+</LinearLayout>

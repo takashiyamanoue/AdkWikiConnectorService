@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="DemoKitTextWhite">#FFF</color>
+	<color name="DemoKitLabelGray">#666</color>
+  <color name="black">#ff000000</color>
+  <color name="white">#ffffffff</color>
+  <color name="red">#ffff0000</color>
+  <color name="green">#ff00ff00</color>
+  <color name="blue">#ff0000ff</color>
+  <color name="cyan">#ff00ffff</color>
+  <color name="yellow">#ffff00ff</color>
+  <color name="magenta">#ffffff00</color>
+  <color name="glay1">#fff0f0f0</color>
+</resources>

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:orientation="vertical" android:weightSum="2">
+
+    <LinearLayout
+        android:id="@+id/analogInputs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/a0c"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/a0l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a0"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/a0v"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:text="@string/n0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/a1c"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/a1l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a1"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/a1v"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:text="@string/n0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/a2c"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/a2l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a2"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/a2v"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:text="@string/n0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/a3c"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/a3l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a3"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/a3v"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:text="@string/n0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/a4c"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/a4l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a4"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/a4v"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:text="@string/n0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/a5c"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/a5l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a5"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/a5v"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:text="@string/n0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/a6c"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/a6l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a6"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/a6v"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:text="@string/n0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/a7c"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/a7l"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a7"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/a7v"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:text="@string/n0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/digitalInputs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/digitalInputLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/digitalInputLabel"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/digitalInputValues"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/d0b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/d0v" />
+
+            <Button
+                android:id="@+id/d1b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/d1v" />
+            <Button
+                android:id="@+id/d2b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/d2v" />
+
+            <Button
+                android:id="@+id/d3b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/d3v" />
+
+            <Button
+                android:id="@+id/d4b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/d4v" />
+
+            <Button
+                android:id="@+id/d5b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/d5v" />
+
+            <Button
+                android:id="@+id/d6b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/d6v" />
+
+            <Button
+                android:id="@+id/d7b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/d7v" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <EditText
+        android:id="@+id/command_editor_text"
+        android:layout_width="match_parent"
+        android:layout_height="80dip"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:scrollbars="vertical"
+        android:textSize="12sp" />
+	<LinearLayout
+	    android:id="@+id/linearLayout1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+
+		<Button
+		    android:id="@+id/button_to_arduino"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/label_to_arduino" />
+
+		<Button
+		    android:id="@+id/button_to_twitter"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/label_to_twiter" />
+
+	</LinearLayout>
+
+	<LinearLayout
+	    android:id="@+id/linearLayout2"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+
+		<TextView
+		    android:id="@+id/textView1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/twitter_to_arduino"
+		    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+		<TextView
+		    android:id="@+id/textView2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/ardunio_to_twitter" />
+
+	</LinearLayout>
+
+	<EditText
+	    android:id="@+id/input_adk_to_wiki_area"
+	    android:layout_width="match_parent"
+	    android:layout_height="120dip"
+	    android:inputType="textMultiLine"
+	    android:scrollbars="vertical"
+	    android:textSize="12sp" >
+
+	    <requestFocus />
+	</EditText>
+
+	<EditText
+	    android:id="@+id/input_message_area"
+	    android:layout_width="match_parent"
+	    android:layout_height="80dip"
+	    android:scrollbars="vertical"
+	    android:textSize="12sp" 
+	    android:inputType="textMultiLine" />
+
+</LinearLayout>
+
